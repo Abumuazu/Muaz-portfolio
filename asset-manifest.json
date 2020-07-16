@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Muaz-portfolio/static/css/main.b1f91ab1.chunk.css",
+    "main.js": "/Muaz-portfolio/static/js/main.ad93713c.chunk.js",
+    "main.js.map": "/Muaz-portfolio/static/js/main.ad93713c.chunk.js.map",
+    "runtime-main.js": "/Muaz-portfolio/static/js/runtime-main.78a200b1.js",
+    "runtime-main.js.map": "/Muaz-portfolio/static/js/runtime-main.78a200b1.js.map",
+    "static/js/2.f766b94d.chunk.js": "/Muaz-portfolio/static/js/2.f766b94d.chunk.js",
+    "static/js/2.f766b94d.chunk.js.map": "/Muaz-portfolio/static/js/2.f766b94d.chunk.js.map",
+    "index.html": "/Muaz-portfolio/index.html",
+    "precache-manifest.f86e683f8e60fc8ed2119bac0fd564ff.js": "/Muaz-portfolio/precache-manifest.f86e683f8e60fc8ed2119bac0fd564ff.js",
+    "service-worker.js": "/Muaz-portfolio/service-worker.js",
+    "static/css/main.b1f91ab1.chunk.css.map": "/Muaz-portfolio/static/css/main.b1f91ab1.chunk.css.map",
+    "static/js/2.f766b94d.chunk.js.LICENSE.txt": "/Muaz-portfolio/static/js/2.f766b94d.chunk.js.LICENSE.txt",
+    "static/media/github.svg": "/Muaz-portfolio/static/media/github.ad052847.svg",
+    "static/media/instagram.svg": "/Muaz-portfolio/static/media/instagram.bd965c81.svg",
+    "static/media/linkedin.svg": "/Muaz-portfolio/static/media/linkedin.12e9c34e.svg",
+    "static/media/twitter.svg": "/Muaz-portfolio/static/media/twitter.c4c914f8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78a200b1.js",
+    "static/js/2.f766b94d.chunk.js",
+    "static/css/main.b1f91ab1.chunk.css",
+    "static/js/main.ad93713c.chunk.js"
+  ]
+}

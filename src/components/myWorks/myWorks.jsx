@@ -4,8 +4,7 @@ import github from "../images/github.svg";
 const StyleMyWorks = styled.section`
   min-height: 90vh;
   overflow-y: hidden;
-  padding: 10rem 2rem;
-  background-color: rgba(111, 132, 230, 0.3);
+  padding: 10rem 4rem 2rem 4rem;
 
   .container {
     min-width: 50vw;
@@ -53,43 +52,40 @@ const StyleMyWorks = styled.section`
     top: 10px;
     left: 10px;
   }
-  .preview {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
   .appName {
     position: absolute;
     top: 40%;
     right: 50%;
     font-size: 5rem;
     transform: translate(50%, -50%);
-    color: #09f755;
+    color: #333;
   }
   .briefWriteUp {
     position: absolute;
     top: 70%;
     leftt: 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 300;
     text-align: left;
     background-color: #fffafa;
     width: 100%;
     height: 16vh;
-    padding: 2rem;
-    color: #999;
+    padding: 1.5rem;
+    color: #333;
     box-shadow: 5px 5px 5px #777;
   }
   h1 {
     text-align: center;
     font-size: 4rem;
     margin-bottom: 2rem;
-    color: grey;
+    color: 333;
+    font-weight: 700;
   }
   p {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 8rem;
-    color: grey;
+    color: #333;
   }
 `;
 
@@ -116,6 +112,7 @@ const MyWorks = () => {
                 className="link"
                 href="https://abumuazu.github.io/natours/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Natours.website
               </a>
@@ -125,7 +122,30 @@ const MyWorks = () => {
               </article>
             </div>
           </div>
-
+          <div className="box box1">
+            <div className="github">
+              <a href="#">
+                <img src={github} alt="github" />
+              </a>
+            </div>
+            <div className="appName">
+              <h1>Identifier</h1>
+            </div>
+            <div className="briefWriteUp">
+              <a
+                className="link"
+                href="https://abumuazu.github.io/Identifier-app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Identifier.app
+              </a>
+              <article>
+                Identifier is a face detection app that points out bounded
+                location of faces in pictures.
+              </article>
+            </div>
+          </div>
           <div className="box box1">
             <div className="github">
               <a href="#">
@@ -140,6 +160,7 @@ const MyWorks = () => {
                 className="link"
                 href="https://abumuazu.github.io/FooDie-App/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 FooDie.app
               </a>

@@ -8,7 +8,7 @@ const Ul = styled.ul`
   flex-row: row-nowrap;
   @media (max-width: 768px) {
     flex-flow: column nowrap;
-    background-color: #5b015c;
+    background-color: #f9f9f9;
     transform: ${({ open }) => (open ? "translateY(0)" : "translateY(100%)")};
     position: fixed;
     top: 0;
@@ -26,7 +26,7 @@ const Ul = styled.ul`
     text-transform: uppercase;
     font-size: 2rem;
     text-decoration: none;
-    color: #09f755;
+    color: #282c34;
     // font-family: $tertiary-font;
     letter-spacing: -1px;
     transition: all 0.2s ease-in-out;
@@ -40,16 +40,13 @@ const BoxWrapper = ({ open, onRouteChange }) => {
   return (
     <Ul open={open}>
       <li>
-        <a onClick={() => onRouteChange("home")}>Home</a>
+        <a onClick={() => onRouteChange("home")}>&#127969; Home</a>
       </li>
       <li>
-        <a onClick={() => onRouteChange("myWorks")}>My Work</a>
+        <a onClick={() => onRouteChange("myWorks")}> 📗 My Work</a>
       </li>
       <li>
-        <a onClick={() => onRouteChange("Library")}>My Library</a>
-      </li>
-      <li>
-        <a>Resume 📗</a>
+        <a onClick={() => onRouteChange("Library")}>&#128304; My Library</a>
       </li>
     </Ul>
   );

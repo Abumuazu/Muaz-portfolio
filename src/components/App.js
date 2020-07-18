@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navigation from "./Nav/navigation";
 import Header from "./header/header";
+import Firstbody from "./FiestBody/firstbody";
 import BodyOne from "./body/bodyOne";
 import MyWorks from "./myWorks/myWorks";
 import Footer from "./footer/footer";
@@ -42,6 +43,7 @@ class App extends Component {
         {route === "home" ? (
           <div>
             <Header />
+            <Firstbody />
             <BodyOne onRouteChange={this.onRouteChange} />
           </div>
         ) : route === "myWorks" ? (

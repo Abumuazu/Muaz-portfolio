@@ -8,7 +8,7 @@ const StyleFooter = styled.div`
   section {
     min-height: 90vh;
     overflow-y: hidden;
-    background-color: #5b015c;
+    background-color: #282c34;
     margin: 0 auto;
     @media screen and (min-width: 768px) {
       min-height: 70vh;
@@ -128,7 +128,7 @@ const Footer = ({ onRouteChange }) => {
             <h1>Say hello</h1>
             <li>
               {" "}
-              <h4> abumuazu@gmail.com</h4>{" "}
+              <h4> &#9993; abumuazu@gmail.com</h4>{" "}
             </li>
             <li>
               <h4> &#128222; +234 0909 265 9629</h4>
@@ -140,21 +140,21 @@ const Footer = ({ onRouteChange }) => {
                 <input
                   onClick={() => onRouteChange("myWorks")}
                   type="submit"
-                  value="My Works"
+                  value=" 📗  My Works"
                 />
               </li>
               <li>
                 <input
                   onClick={() => onRouteChange("Library")}
                   type="submit"
-                  value=" my library"
+                  value="&#128304; my library"
                 />
               </li>
               <li>
                 <input
                   onClick={() => onRouteChange("Songs")}
                   type="submit"
-                  value="My Songs"
+                  value="&#9835; My Songs"
                 />
               </li>
             </ul>

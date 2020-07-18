@@ -3,21 +3,23 @@ import styled from "styled-components";
 const StyleBodyOne = styled.div`
   section {
     min-height: 90vh;
-
     margin: 0 auto;
-    padding: 9rem 2rem 2rem 2rem;
+    padding: 9rem 4rem 2rem 4rem;
   }
   article {
     display: flex;
     flex-direction: column;
-    color: #797575;
-    background-color: #000000;
-    height: 60vh;
+    color: #333;
+    background-color: #eee;
+    min-height: 54vh;
     @media screen and (max-width: 768px) {
-      min-height: 65vh;
+      min-height: 50vh;
     }
-    border: 1px solid rgb(47, 46, 46);
-    box-shadow: 1px 2px 2px black;
+    @media screen and (max-width: 320px) {
+      min-height: 40vh;
+    }
+
+    box-shadow: 2px 2px 2px #999;
     border-radius: 5px;
     padding: 25px;
     cursor: pointer;
@@ -27,6 +29,7 @@ const StyleBodyOne = styled.div`
     transition: all 0.25s ease-out;
     &:hover {
       transform: scale(1.05);
+      transform: translate(1rem);
     }
   }
   .innerContainer {
@@ -34,7 +37,7 @@ const StyleBodyOne = styled.div`
     margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
-    grid-gap: 20px;
+    grid-gap: 35px;
   }
   .article {
     position: absolute;
@@ -49,18 +52,19 @@ const StyleBodyOne = styled.div`
     top: 23rem;
     padding: 1rem;
     cursor: pointer;
-    border: 1px solid #09f755;
-    color: #09f755;
+    border: 2px solid #333;
+    color: #333;
+    font-weight: 400;
     border-radius: 3px;
     width: 65%;
     height: 50px;
     display: block;
     align-self: center;
-    background: linear-gradient(to right, #09f755 50%, black 50%);
+    background: linear-gradient(to right, #09f755 50%, transparent 50%);
     @media screen and (max-width: 768px) {
-      background: #09f755;
-      border: 1px solid black;
-      color: white;
+      background: transparent;
+      border: 1px solid #333;
+      color: #333;
     }
     background-size: 200% 100%;
     background-position: right bottom;
@@ -74,16 +78,16 @@ const StyleBodyOne = styled.div`
   }
   input:hover {
     background-position: left bottom;
-    color: white;
+    color: #333;
   }
 
   h1 {
-    color: #797575;
+    color: #333;
     font-size: 4rem;
     margin-bottom: 1rem;
   }
   p {
-    color: #ffffff;
+    color: #666;
   }
 `;
 
@@ -108,7 +112,7 @@ const BodyOne = ({ onRouteChange }) => {
               <input
                 onClick={() => onRouteChange("myWorks")}
                 type="submit"
-                value="View my works"
+                value="View my works &#10146;"
               />
             </article>
 
@@ -128,7 +132,7 @@ const BodyOne = ({ onRouteChange }) => {
               <input
                 onClick={() => onRouteChange("Library")}
                 type="submit"
-                value="view my library"
+                value="view my library &#10146;"
               />
             </article>
             <article>
@@ -148,7 +152,7 @@ const BodyOne = ({ onRouteChange }) => {
               <input
                 onClick={() => onRouteChange("Songs")}
                 type="submit"
-                value="Bless your ears"
+                value="Bless your ears &#10146;"
               />
             </article>
           </div>

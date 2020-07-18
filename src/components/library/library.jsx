@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 const StyledLibrary = styled.ul`
-  background-color: rgba(111, 132, 230, 0.3);
   min-height: 100vh;
   position: relative;
   padding: 4rem 3rem;

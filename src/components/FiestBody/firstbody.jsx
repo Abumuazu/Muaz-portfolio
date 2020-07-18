@@ -4,7 +4,7 @@ const StyleFirstBody = styled.section`
   .FirstContainer {
     margin: 0;
     text-align: center;
-    padding: 17rem 4rem 2rem 4rem;
+    padding: 4rem 0rem 0rem 0rem;
   }
   .cont {
     background-color: #eee;
@@ -36,9 +36,9 @@ const StyleFirstBody = styled.section`
   .cont2 {
   }
   h1 {
-    font-size: 6rem;
+    font-size: 5.4rem;
     color: #333;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 3rem;
     @media screen and (max-width: 430px) {
       font-size: 3.7rem;
@@ -50,6 +50,9 @@ const StyleFirstBody = styled.section`
     font-size: 2rem;
     margin-bottom: 3rem;
     @media screen and (max-width: 430px) {
+      font-size: 1.6rem;
+    }
+    @media screen and (max-width: 300px) {
       font-size: 1.2rem;
     }
   }

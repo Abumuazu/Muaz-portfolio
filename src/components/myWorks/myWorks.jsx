@@ -110,7 +110,7 @@ const MyWorks = () => {
             <div className="briefWriteUp">
               <a
                 className="link"
-                href="https://abumuazu.github.io/natours/"
+                href="https://abumuazu.github.io/Natours/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

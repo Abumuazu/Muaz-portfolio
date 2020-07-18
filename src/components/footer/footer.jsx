@@ -158,7 +158,13 @@ const Footer = ({ onRouteChange }) => {
                 />
               </li>
             </ul>
-            <a className="resume" href="#contact">
+
+            <a
+              className="resume"
+              href="https://drive.google.com/file/d/1QjT693auRmwp9gssos9dLE7QoOr0J8Pj/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Resume 📗
             </a>
           </div>

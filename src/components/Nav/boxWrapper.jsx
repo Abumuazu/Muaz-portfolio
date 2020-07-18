@@ -6,6 +6,8 @@ const Ul = styled.ul`
   list-style: none;
   display: flex;
   flex-row: row-nowrap;
+  background-color: #000000;
+  color: #09f755;
   @media (max-width: 768px) {
     flex-flow: column nowrap;
     background-color: #f9f9f9;
@@ -16,6 +18,7 @@ const Ul = styled.ul`
     height: 100vh;
     width: 300px;
     padding-top: 3.5rem;
+    color: #282c34;
     transition: transform 0.3s ease-in-out;
   }
 
@@ -26,7 +29,6 @@ const Ul = styled.ul`
     text-transform: uppercase;
     font-size: 2rem;
     text-decoration: none;
-    color: #282c34;
     // font-family: $tertiary-font;
     letter-spacing: -1px;
     transition: all 0.2s ease-in-out;

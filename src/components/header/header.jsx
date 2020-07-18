@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Muaz from "../images/muazu.JPG";
-// import Particles from "react-particles-js";
+import Abu1 from "../images/Abu1.jpg";
 
 const StyleHeader = styled.div`
   header {
@@ -30,7 +29,7 @@ const StyleHeader = styled.div`
     text-align: left;
     position: absolute;
     top: 30%;
-    left: 15%;
+    left: 9%;
     @media screen and (max-width: 768px) {
       position: absolute;
       top: 10%;
@@ -40,7 +39,7 @@ const StyleHeader = styled.div`
   .box2 {
     position: absolute;
     top: 30%;
-    left: 65%;
+    left: 60%;
     width: 300px;
     height: 300px;
     @media screen and (max-width: 768px) {
@@ -52,7 +51,8 @@ const StyleHeader = styled.div`
     }
     @media screen and (max-width: 350px) {
       position: absolute;
-      top: 61.5%;
+      top: 61%;
+      left: -12%;
     }
   }
   .pictureContainer {
@@ -76,9 +76,12 @@ const StyleHeader = styled.div`
     transform: rotate(0deg);
   }
   img {
+    position: absolute;
+    left: -6%;
+    top: -9%;
     width: 200px;
     height: 200px;
-    transform: rotate(0deg);
+    transform: rotate(11deg);
     @media screen and (max-width: 768px) {
       width: 180px;
       height: 180px;
@@ -88,7 +91,7 @@ const StyleHeader = styled.div`
       height: 150px;
     }
   }
-  button {
+  a {
     padding: 1rem;
     cursor: pointer;
     border: 1px solid #09f755;
@@ -100,9 +103,9 @@ const StyleHeader = styled.div`
     align-self: center;
     background: linear-gradient(to right, #09f755 50%, black 50%);
     @media screen and (max-width: 768px) {
-      background: #09f755;
-      border: 1px solid black;
-      color: white;
+      background: #000000;
+      border: 1px solid #09f755;
+      color: #09f755;
     }
     background-size: 200% 100%;
     background-position: right bottom;
@@ -112,17 +115,23 @@ const StyleHeader = styled.div`
     line-height: 30px;
     display: block;
   }
-  button:hover {
+  a:hover {
     background-position: left bottom;
     color: white;
   }
   h1 {
     font-size: 7rem;
     color: #09f755;
+    @media screen and (max-width: 350px) {
+      font-size: 5rem;
+    }
   }
   p {
     color: #ffffff;
     margin-top: 3rem;
+    @media screen and (max-width: 900px) {
+      font-size: 1.6rem;
+    }
   }
   .dot {
     color: #ffffff;
@@ -160,10 +169,16 @@ const Header = () => {
           </div>
           <div className="box box2">
             <div className="pictureContainer">
-              <img src={Muaz} alt="myPhoto"></img>
+              <img src={Abu1} alt="myPhoto"></img>
             </div>
             <p className="more"> To know more about me</p>
-            <button>Resume</button>
+            <a
+              href="https://drive.google.com/file/d/1QjT693auRmwp9gssos9dLE7QoOr0J8Pj/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
           </div>
         </div>
       </header>

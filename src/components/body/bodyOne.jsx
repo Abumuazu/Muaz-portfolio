@@ -60,7 +60,7 @@ const StyleBodyOne = styled.div`
     height: 50px;
     display: block;
     align-self: center;
-    background: linear-gradient(to right, #09f755 50%, transparent 50%);
+    background: linear-gradient(to right, #333 50%, transparent 50%);
     @media screen and (max-width: 768px) {
       background: transparent;
       border: 1px solid #333;
@@ -78,7 +78,7 @@ const StyleBodyOne = styled.div`
   }
   input:hover {
     background-position: left bottom;
-    color: #333;
+    color: #09f755;
   }
 
   h1 {

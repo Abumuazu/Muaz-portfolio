@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b85f4691b146ce5dbcf0b014d3892ec8",
+    "revision": "f6fb707c15dce9ee02c0bcec166ff731",
     "url": "/Muaz-portfolio/index.html"
   },
   {
-    "revision": "3895add9a12bbbe07f31",
-    "url": "/Muaz-portfolio/static/css/main.b1f91ab1.chunk.css"
+    "revision": "ac6aae5a34c5d280a4b2",
+    "url": "/Muaz-portfolio/static/css/main.e286ac01.chunk.css"
   },
   {
     "revision": "6b1a20e4b8b0da4bcd1b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Muaz-portfolio/static/js/2.a27949d8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3895add9a12bbbe07f31",
-    "url": "/Muaz-portfolio/static/js/main.a42ad571.chunk.js"
+    "revision": "ac6aae5a34c5d280a4b2",
+    "url": "/Muaz-portfolio/static/js/main.b4c3e8ab.chunk.js"
   },
   {
     "revision": "56445a12b18d7fe2fe5f",

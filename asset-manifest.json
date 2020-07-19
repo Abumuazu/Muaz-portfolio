@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Muaz-portfolio/static/css/main.b1f91ab1.chunk.css",
-    "main.js": "/Muaz-portfolio/static/js/main.a42ad571.chunk.js",
-    "main.js.map": "/Muaz-portfolio/static/js/main.a42ad571.chunk.js.map",
+    "main.css": "/Muaz-portfolio/static/css/main.e286ac01.chunk.css",
+    "main.js": "/Muaz-portfolio/static/js/main.b4c3e8ab.chunk.js",
+    "main.js.map": "/Muaz-portfolio/static/js/main.b4c3e8ab.chunk.js.map",
     "runtime-main.js": "/Muaz-portfolio/static/js/runtime-main.78a200b1.js",
     "runtime-main.js.map": "/Muaz-portfolio/static/js/runtime-main.78a200b1.js.map",
     "static/js/2.a27949d8.chunk.js": "/Muaz-portfolio/static/js/2.a27949d8.chunk.js",
     "static/js/2.a27949d8.chunk.js.map": "/Muaz-portfolio/static/js/2.a27949d8.chunk.js.map",
     "index.html": "/Muaz-portfolio/index.html",
-    "precache-manifest.a0bcaae83276f2f51c544dc8f2b61bf2.js": "/Muaz-portfolio/precache-manifest.a0bcaae83276f2f51c544dc8f2b61bf2.js",
+    "precache-manifest.5f7fa815e30e9c13c749f60a12eb0ea5.js": "/Muaz-portfolio/precache-manifest.5f7fa815e30e9c13c749f60a12eb0ea5.js",
     "service-worker.js": "/Muaz-portfolio/service-worker.js",
-    "static/css/main.b1f91ab1.chunk.css.map": "/Muaz-portfolio/static/css/main.b1f91ab1.chunk.css.map",
+    "static/css/main.e286ac01.chunk.css.map": "/Muaz-portfolio/static/css/main.e286ac01.chunk.css.map",
     "static/js/2.a27949d8.chunk.js.LICENSE.txt": "/Muaz-portfolio/static/js/2.a27949d8.chunk.js.LICENSE.txt",
     "static/media/Abu1.jpg": "/Muaz-portfolio/static/media/Abu1.a8cbfc19.jpg",
     "static/media/github.svg": "/Muaz-portfolio/static/media/github.ad052847.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.78a200b1.js",
     "static/js/2.a27949d8.chunk.js",
-    "static/css/main.b1f91ab1.chunk.css",
-    "static/js/main.a42ad571.chunk.js"
+    "static/css/main.e286ac01.chunk.css",
+    "static/js/main.b4c3e8ab.chunk.js"
   ]
 }

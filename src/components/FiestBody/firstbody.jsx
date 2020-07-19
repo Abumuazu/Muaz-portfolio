@@ -33,15 +33,17 @@ const StyleFirstBody = styled.section`
       border-right: none;
     }
   }
-  .cont2 {
-  }
+
   h1 {
-    font-size: 5.4rem;
+    font-size: 5rem;
     color: #333;
     font-weight: 700;
     margin-bottom: 3rem;
     @media screen and (max-width: 430px) {
       font-size: 3.7rem;
+    }
+    @media screen and (max-width: 300px) {
+      font-size: 2.5rem;
     }
   }
   p {

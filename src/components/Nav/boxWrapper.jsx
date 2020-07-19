@@ -21,6 +21,9 @@ const Ul = styled.ul`
     color: #282c34;
     transition: transform 0.3s ease-in-out;
   }
+  @media screen and (max-width: 350px) {
+    height: 130vh;
+  }
 
   li {
     padding: 10px 10px;

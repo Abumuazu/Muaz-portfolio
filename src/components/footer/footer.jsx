@@ -12,7 +12,7 @@ const StyleFooter = styled.div`
     margin: 0 auto;
     @media screen and (min-width: 768px) {
       min-height: 70vh;
-      .box2 {
+      .footerbBox2 {
         position: relative;
         top: 40%;
         left: 0%;
@@ -20,14 +20,14 @@ const StyleFooter = styled.div`
       }
     }
   }
-  .container {
+  .footerContainer {
     width: 85vw;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
     grid-gap: 20px;
   }
-  .box {
+  .footerbBox {
     display: flex;
     flex-direction: column;
     color: #797575;
@@ -40,18 +40,18 @@ const StyleFooter = styled.div`
     list-style: none;
     text-align: center;
   }
-  .box1 {
+  .footerbBox1 {
     position: relative;
     top: 30%;
     left: 0%;
   }
-  .box2 {
+  .footerbBox2 {
     position: relative;
     top: 10%;
     left: 0%;
     font-size: 5rem;
   }
-  .box3 {
+  .footerbBox3 {
     position: relative;
     top: 10%;
     left: 5%;
@@ -123,8 +123,8 @@ const Footer = ({ onRouteChange }) => {
   return (
     <StyleFooter>
       <section id="footer">
-        <div className="container">
-          <div className="box box1">
+        <div className="footerContainer">
+          <div className="footerBox footerbBox1">
             <h1>Say hello</h1>
             <li>
               {" "}
@@ -134,7 +134,7 @@ const Footer = ({ onRouteChange }) => {
               <h4> &#128222; +234 0909 265 9629</h4>
             </li>
           </div>
-          <div className="box box2">
+          <div className="footerBox footerbBox2">
             <ul>
               <li>
                 <input
@@ -168,7 +168,7 @@ const Footer = ({ onRouteChange }) => {
               Resume 📗
             </a>
           </div>
-          <div className="box box3">
+          <div className="footerBox footerbBox3">
             <h1 className="heading-4">Lets Connect Globally</h1>
             <div className="socialLinks">
               <div className="socialLinksBox">

@@ -4,19 +4,18 @@ const StyleBodyOne = styled.div`
   section {
     min-height: 90vh;
     margin: 0 auto;
-    padding: 9rem 4rem 2rem 4rem;
+    padding: 9rem 0rem 2rem 1rem;
+    @media screen and (max-width: 600px) {
+      padding: 9rem 4rem 2rem 4rem;
+    }
   }
   article {
     display: flex;
     flex-direction: column;
-    color: #333;
     background-color: #eee;
     min-height: 54vh;
     @media screen and (max-width: 768px) {
-      min-height: 50vh;
-    }
-    @media screen and (max-width: 320px) {
-      min-height: 40vh;
+      min-height: 55vh;
     }
 
     box-shadow: 2px 2px 2px #999;
@@ -37,6 +36,9 @@ const StyleBodyOne = styled.div`
     margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    @media screen and (max-width: 280px) {
+      grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    }
     grid-gap: 35px;
   }
   .article {
@@ -69,11 +71,9 @@ const StyleBodyOne = styled.div`
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all 0.2s ease-out;
-
     text-align: center;
     font-size: 16px;
     line-height: 30px;
-
     display: block;
   }
   input:hover {
@@ -83,17 +83,20 @@ const StyleBodyOne = styled.div`
 
   h1 {
     color: #333;
+    font-weigh: 300;
     font-size: 4rem;
     margin-bottom: 1rem;
   }
   p {
     color: #666;
+    font-weigh: 300;
   }
 `;
 
 const BodyOne = ({ onRouteChange }) => {
   return (
     <StyleBodyOne>
+      d{" "}
       <section>
         <div className="container">
           <div className="innerContainer">

@@ -45,14 +45,14 @@ const StyleHeader = styled.div`
     @media screen and (max-width: 768px) {
       position: absolute;
       top: 55%;
-      left: 2%;
+      left: -3%;
       width: 340px;
       height: 400px;
     }
     @media screen and (max-width: 350px) {
       position: absolute;
       top: 61%;
-      left: -12%;
+      left: -14%;
     }
   }
   .pictureContainer {
@@ -122,7 +122,10 @@ const StyleHeader = styled.div`
   h1 {
     font-size: 7rem;
     color: #09f755;
-    @media screen and (max-width: 350px) {
+    @media screen and (max-width: 780px) {
+      font-size: 5.5rem;
+    }
+    @media screen and (max-width: 280px) {
       font-size: 5rem;
     }
   }
